@@ -23,15 +23,15 @@ class Frame1(wx.Frame):
     def _init_ctrls(self, prnt):
         # generated method, don't edit
         wx.Frame.__init__(self, id=wxID_FRAME1, name='', parent=prnt,
-              pos=wx.Point(403, 308), size=wx.Size(399, 285),
+              pos=wx.Point(489, 368), size=wx.Size(399, 300),
               style=wx.DEFAULT_FRAME_STYLE, title=u'TurBoPatcher3000')
-        self.SetClientSize(wx.Size(391, 258))
+        self.SetClientSize(wx.Size(397, 260))
         self.SetToolTipString(u'Frame1')
         self.SetMaxSize(wx.Size(399, 285))
         self.SetMinSize(wx.Size(399, 285))
 
         self.panel1 = wx.Panel(id=wxID_FRAME1PANEL1, name='panel1', parent=self,
-              pos=wx.Point(0, 0), size=wx.Size(391, 258),
+              pos=wx.Point(0, 0), size=wx.Size(397, 260),
               style=wx.TAB_TRAVERSAL)
 
         self.button1 = wx.Button(id=wxID_FRAME1BUTTON1, label=u'Original',
@@ -72,11 +72,11 @@ class Frame1(wx.Frame):
 
         self.staticText1 = wx.StaticText(id=wxID_FRAME1STATICTEXT1,
               label=u'Generate Patch', name='staticText1', parent=self.panel1,
-              pos=wx.Point(8, 8), size=wx.Size(75, 13), style=0)
+              pos=wx.Point(8, 0), size=wx.Size(75, 24), style=0)
 
         self.staticText2 = wx.StaticText(id=wxID_FRAME1STATICTEXT2,
               label=u'Patch File', name='staticText2', parent=self.panel1,
-              pos=wx.Point(8, 128), size=wx.Size(46, 13), style=0)
+              pos=wx.Point(8, 120), size=wx.Size(46, 24), style=0)
 
         self.textCtrl1 = wx.TextCtrl(id=wxID_FRAME1TEXTCTRL1, name='textCtrl1',
               parent=self.panel1, pos=wx.Point(96, 32), size=wx.Size(280, 21),
