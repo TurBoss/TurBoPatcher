@@ -1,3 +1,0 @@
-bsdiff4
-wxPython
-wxPython-common
