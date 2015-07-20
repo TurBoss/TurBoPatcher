@@ -152,6 +152,13 @@ class Frame1(wx.Frame):
                 
         finally:
             dlg.Destroy()
+            
+            ok_dlg = wx.MessageDialog (self, u'Completed!!',
+                u'Completed',
+                wx.OK | wx.ICON_INFORMATION
+                )
+            ok_dlg.ShowModal ()
+            ok_dlg.Destroy () 
 
     def OnButton4Button(self, event):
         global patchOriginalBytes
@@ -204,3 +211,10 @@ class Frame1(wx.Frame):
                 
         finally:
             dlg.Destroy()
+            
+            ok_dlg = wx.MessageDialog (self, u'Completed!!',
+                u'Completed',
+                wx.OK | wx.ICON_INFORMATION
+                )
+            ok_dlg.ShowModal ()
+            ok_dlg.Destroy () 
